@@ -8,13 +8,13 @@
     * 실제 True인 것 중에서 true로 예측한 것의 비율
     * ex) recall of positive
       * of correct prediction positive / of the real positive
-      * tp/tp+fp
+      * tp / (tp+fp)
 
   * precision(정확도)
     * True로 예측 한 것 중에서 True로 예측한 것의 비율
     * ex) precision of positive
       * of correct prediction positive / of predictive positive
-      * tp/tp+fn
+      * tp / (tp+fn)
 
 ## one - hot encoding
 <img width="693" alt="스크린샷 2021-11-30 오후 10 00 50" src="https://user-images.githubusercontent.com/50222603/144052051-df9888af-909f-4f0a-8d93-b10b08ac2c4f.png">
